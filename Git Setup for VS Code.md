@@ -24,7 +24,10 @@ For Mac: Git is built-in
         IdentityFile ~/.ssh/id_rsa (or PersonalKey)
 
 12) Lastly, type
-    $ ssh-add --apple-use-keychain ~/.ssh.id_rsa
+    $ ssh-add --apple-use-keychain ~/.ssh.id_rsa   or 
+    $ ssh-add -K ~/.ssh.id_rsa                     or
+    $ ssh-add ~/.ssh.id_rsa
+    
 
 Now, you can push to the github from vscode
 
